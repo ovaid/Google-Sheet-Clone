@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    overflow-x: auto;
+}
+th,
+td {
+    border: 1px solid #333;
+    min-width: 80px;
+}
+
+tr{
+    height: 20px;
+    line-height: 20px;
+}
+
+td:focus {
+    outline: none;
+}
+
+#current-cell-div{
+    border: 1px solid black;
+    width: 150px;
+}
